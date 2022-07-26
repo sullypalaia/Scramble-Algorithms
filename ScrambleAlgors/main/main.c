@@ -38,7 +38,7 @@ int main(int argc, char **argv)
             }
         }
 
-        else
+        else if (strcmp(argv[1], "a0") == 0|| strcmp(argv[1], "a1") == 0)
         {
             int argLen = strlen(argv[2]);
             char *result = malloc(argLen + 1);
@@ -76,6 +76,12 @@ int main(int argc, char **argv)
 
             printf("\nresult: %s\n\n", result);
             free(result);
+        }
+
+        else
+        {
+            error();
+            return 1;
         }
     }
 
