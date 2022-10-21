@@ -1,4 +1,5 @@
 #include "makeres.h"
+#include "algors.h"
 
 void a0(int len, char *arg, char *res, int f)
 {
