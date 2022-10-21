@@ -28,7 +28,7 @@ int main(int argc, char **argv)
                 printf("-a1 (will prompt you with a factor, which decides how many columns you want each character to move left)\n");
                 printf("\nSecond Parameter:\n");
                 printf("enter the desired word you want to modify\n");
-                printf("\nEX: './main a0 test' with a factor of 1 will return 'ttes'\n\n");
+                printf("\nEX: './out a0 test' with a factor of 1 will return 'ttes'\n\n");
             }
 
             else
